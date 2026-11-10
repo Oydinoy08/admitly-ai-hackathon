@@ -107,6 +107,7 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+ROOT_URLCONF = 'config.urls'
 
 CORS_ALLOWED_ORIGINS = config('ALLOWED_ORIGINS', default='http://localhost:5173', cast=Csv())
 
