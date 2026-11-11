@@ -9,3 +9,4 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 ROOT_URLCONF = 'config.urls'
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PHOTO', 'https')
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
