@@ -112,3 +112,4 @@ ROOT_URLCONF = 'config.urls'
 CORS_ALLOWED_ORIGINS = config('ALLOWED_ORIGINS', default='http://localhost:5173', cast=Csv())
 
 GEMINI_API_KEY = config('GEMINI_API_KEY', default='')
+ROOT_URLCONF = 'config.urls'
